@@ -3,7 +3,7 @@
 Web-based room reservation and timetable system for the three CICS laboratories
 (Robotics, Internet, Computer Lab), built from the project presentation.
 
-Stack: React JS frontend (Vite) · Node.js + Express backend · MySQL database · runs on localhost.
+**Stack:** React JS frontend (Vite) · Node.js + Express backend · MySQL database · runs on localhost.
 
 ## Requirements
 - Node.js 18 or newer — https://nodejs.org
@@ -45,13 +45,13 @@ Run `npm run build` again when you are done so port 3000 serves your latest vers
 | User authentication, staff-only changes | Sign-in required to change anything; students/instructors view only |
 
 ## Admin panel (controls the entire system)
-- Overview – counts, today's room usage, recent activity
-- Reservations – view/filter all, create for any staff, edit, cancel with reason, reinstate, export CSV (admins bypass the cut-off)
-- Class timetable – recurring weekly classes; overlap detection; warns if existing reservations clash
-- Rooms – add/edit/delete; set Available, Maintenance or Closed
-- Users – add faculty/admins, edit, deactivate, reset password, delete
-- System settings – reservations on/off, require sign-in to view, cut-off hours, opening/closing time, max booking length, advance-booking limit, system name, announcement banner
-- Audit log – searchable record of every important action
+- **Overview** – counts, today's room usage, recent activity
+- **Reservations** – view/filter all, create for any staff, edit, cancel with reason, reinstate, export CSV (admins bypass the cut-off)
+- **Class timetable** – recurring weekly classes; overlap detection; warns if existing reservations clash
+- **Rooms** – add/edit/delete; set Available, Maintenance or Closed
+- **Users** – add faculty/admins, edit, deactivate, reset password, delete
+- **System settings** – reservations on/off, require sign-in to view, cut-off hours, opening/closing time, max booking length, advance-booking limit, system name, announcement banner
+- **Audit log** – searchable record of every important action
 
 ## Project layout
 ```
@@ -66,4 +66,3 @@ public/                build output of the React app (created by npm run build)
 - The server only listens on `127.0.0.1` (this computer). To allow other devices on your network set `HOST=0.0.0.0` in `.env`.
 - Troubleshooting: "Access denied" → fix `DB_PASSWORD`; "ECONNREFUSED" → start MySQL; port busy → change `PORT`;
   page says "frontend has not been built" → run `npm run build`.
-
