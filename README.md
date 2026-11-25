@@ -2,6 +2,14 @@
 Zamboanga Peninsula Polytechnic State University (ZPPSU) - campus-wide, all colleges and departments
 Stack: ReactJS (Vite) + MySQL (XAMPP) + Node/Express API + HTML/CSS
 
+Members:
+Gaspar, Andrei Y.
+Delacruz, Mark Justin L. 
+Montero, Gabriel G.
+Cabiara, Wyeth ROvin V.
+Abbas, Arghafar H.
+LAMORINAS, CHARM ANGEL M.
+
 See `FEATURES.md` for the full feature list.
 
 ## 1. One-time setup
